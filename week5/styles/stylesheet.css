@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    margin: 0;
+    margin-bottom: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+header {
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-size: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+h2 {
+    justify-content: center;
+    display: flex;
+}
+
+nav {
+    height: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li:hover {
+    color: black;
+    background-color: white;
+}
+
+article {
+    margin: 0 10vw 0 10vw;
+}
+
+.bodyimg {
+    width: 30vw;
+}
+
+.textbody {
+    width: 30vw;
+}
+
+.horizontalpara {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#testimonials p {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#dragonborn_banner {
+    background-color: coral;
+    height: 20vh;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
