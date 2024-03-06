@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Skyrim</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <link rel="stylesheet" href="styles/dragonborn_style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Skyrim</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Browse</li>
+            <li>About</li>
+            <li>Example 1</li>
+            <li>Example 2</li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Are you a dragonborn?</h2>
+        <p>Answer the questions below to see how likely it is that you are a dragonborn.</p><br>
+        <div id="question1">
+            <p>You hear of a MASSIVE spider! It's the size of a car! What do you do?</p>
+            <button id="ignorefear">Ignore all my fears and pick a fight with it</button><br>
+            <button id="notlook">I probably won't look for that spider</button>
+        </div>
+        <div id="question2">
+            <p>What do you think of dragons?</p>
+            <button id="nicesouls">They have nice souls</button><br>
+            <button id="scary">Dangerous and scary!</button>
+        </div>
+        <div id="question3">
+            <p>Say the phrase "FUS RO DAH" aloud - what happened?</p>
+            <button id="blasted">Everything in front of me just got randomly blasted backwards</button><br>
+            <button id="funny">People looked at me funny</button>
+        </div>
+        <h3 id="answer"></h3>
+    </main>
+    <script src="scripts/dragonborn_qs.js"></script>
+</body>
+</html>
