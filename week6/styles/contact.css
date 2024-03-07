@@ -1,0 +1,17 @@
+#contactform {
+    width:50vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+#txtname,#eemail {
+    width: 100%;
+}
+#numrating {
+    width: 40px;
+}
+
+#txtquery {
+    width: 100%;
+    resize: vertical;
+}

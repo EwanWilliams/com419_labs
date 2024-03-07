@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Skyrim</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Skyrim</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Browse</li>
+            <li>About</li>
+            <li>Example 1</li>
+            <li>Example 2</li>
+        </ul>
+    </nav>
+    <form id="contactform">
+        <h3>Please use the form below to contact us:</h3>
+        <label for="txtname">Name: </label><br>
+        <input id="txtname" name="name" required>
+        <label for="eemail">Email: </label><br>
+        <input type="email" id="eemail" name = "email" required>
+        <p>Which package is your query about?</p>
+        <input type="radio" id="radopt1" name="pkgopt" value="std" required>
+        <label for="radopt1">Standard package</label><br>
+        <input type="radio" id="radopt2" name="pkgopt" value="drg" required>
+        <label for="radopt2">Dragonborn package</label><br>
+        <p>On a scale of 1-10, how would you rate your experience on our website today?<br>(10 being "Excellent")</p>
+        <input type="number" id="numrating" name="rating" required>
+        <label for="numrating"> /10 rating</label><br>
+        <label for="txtquery">Please enter your query:</label><br>
+        <textarea id="txtquery" name="query" rows="5" placeholder="Type here..." required></textarea>
+        <button id="btnsubmit">Submit</button>
+    </form>
+    <script src="scripts/"></script>
+</body>
+</html>
